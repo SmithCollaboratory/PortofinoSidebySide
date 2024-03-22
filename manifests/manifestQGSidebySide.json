@@ -1,0 +1,83 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://SmithCollaboratory.github.io/PortofinoSidebySide/manifests/manifestQGSidebySide.json",
+  "@type" : "sc:Manifest",
+  "label" : "Portofino Side-by-Side speed comparison",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A side-by-side comparison of two file versions of the same image, a multi-image stitched panorama of Portofino, Italy",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0",
+  "attribution" : "Quint Gregory",
+  "sequences" : [ {
+    "@id" : "http://fd9711e3-710f-4505-80b3-03dcbb3c7c83",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://e64155f3-0bbe-43d8-873b-81b22ea070c1",
+      "@type" : "sc:Canvas",
+      "description" : "Portofino, Italy, photographed from Castell Brown in summer 2023 (multi-image stitched panorama)",
+      "label" : "Portofino as a straight jpeg",
+      "height" : 6210,
+      "width" : 27954,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://27254e5f-de88-4f47-8eb4-f664d937f1e4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/portofino_20240319/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/portofino_20240319",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 6210,
+          "width" : 27954
+        },
+        "on" : "http://e64155f3-0bbe-43d8-873b-81b22ea070c1"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Label",
+        "value" : "Value"
+      } ]
+    }, {
+      "@id" : "http://2018e920-34d8-4ea3-b30b-3d9fc01dd7f6",
+      "@type" : "sc:Canvas",
+      "description" : "Portofino, Italy, photographed from Castell Brown in summer 2023 (multi-image stitched panorama)",
+      "label" : "Portofino as a ptif",
+      "height" : 6210,
+      "width" : 27954,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6e7b112d-6a73-419d-acd9-c77f69221c1f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/3/portofino_20240321%2fPortofino.ptif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/3/portofino_20240321%2fPortofino.ptif",
+            "profile" : "level2"
+          },
+          "height" : 6210,
+          "width" : 27954
+        },
+        "on" : "http://2018e920-34d8-4ea3-b30b-3d9fc01dd7f6"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "viewingHint" : "paged",
+  "viewingDirection" : "left-to-right"
+}
