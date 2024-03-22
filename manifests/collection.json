@@ -1,0 +1,13 @@
+{
+  "id" : "https://SmithCollaboratory.github.io/PortofinoSidebySide/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in SmithCollaboratory/PortofinoSidebySide project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://SmithCollaboratory.github.io/PortofinoSidebySide/manifests/manifestQGSidebySide.json",
+    "label" : "Portofino Side-by-Side speed comparison"
+  } ]
+}
