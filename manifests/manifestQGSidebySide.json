@@ -79,5 +79,23 @@
       "related" : ""
     } ]
   } ],
-  "structures" : [ ]
+  "structures" : [
+		{
+			"@id": "http://example.org/iiif/book1/range/top",
+			"@type": "sc:Range",
+			"label": "Table of Content",
+			"viewingHint": "top",
+			"ranges": [
+				"http://example.org/iiif/book1/range/intro"
+			]
+		},
+		{
+			"@id": "http://example.org/iiif/book1/range/intro",
+			"@type": "sc:Range",
+			"label": "Portofino",
+			"canvases": [
+				"http://27254e5f-de88-4f47-8eb4-f664d937f1e4"
+			]
+		}
+	]
 }
